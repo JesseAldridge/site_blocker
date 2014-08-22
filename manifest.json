@@ -1,0 +1,20 @@
+{
+  "name": "Site blocker",
+  "short_name": "Site blocker",
+  "manifest_version": 2,
+  "version": "1.0",
+  "description": "Blocks distracting sites via a blacklist you define.",
+  "icons": {"16":"icon128.png", "48":"icon128.png", "128":"icon128.png"},
+  "browser_action": {
+    "default_title": "Start blocking",
+    "default_icon": "icon128.png"
+  },
+  "background": { 
+    "scripts": ["jquery-1.11.0.js", "background.js"] 
+  },
+  "content_scripts": [{
+    "matches": ["*://*/*"],
+    "js": ["main.js"]
+  }],
+  "permissions":  ["tabs", "http://*/", "https://*/"]
+}
