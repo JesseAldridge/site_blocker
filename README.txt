@@ -1,0 +1,1 @@
+By default, clicking the button will block Reddit, Hacker News, and Google News for the next three hours.
