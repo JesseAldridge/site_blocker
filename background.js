@@ -4,7 +4,12 @@ console.log('background.js')
 
 var num_minutes = 180
 
-var site_names = ['reddit', 'news.ycombinator', 'news.google']
+var site_names = localStorage["site_names"];
+if (typeof(site_names) === "undefined")
+  site_names = ['reddit', 'news.ycombinator', 'news.google']
+else
+  site_names = site_names.split(",");
+
 var click_time = null
 
 chrome.tabs.onUpdated.addListener(function(tabId) {
