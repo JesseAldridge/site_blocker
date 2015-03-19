@@ -9,12 +9,16 @@
     "default_title": "Start blocking",
     "default_icon": "icon128.png"
   },
-  "background": { 
-    "scripts": ["jquery-1.11.0.js", "background.js"] 
+  "background": {
+    "scripts": ["jquery-1.11.0.js", "background.js"]
   },
   "content_scripts": [{
     "matches": ["*://*/*"],
     "js": ["main.js"]
   }],
-  "permissions":  ["tabs", "http://*/", "https://*/"]
+  "permissions":  ["tabs", "storage", "http://*/", "https://*/"],
+  "options_ui": {
+    "page": "options.html",
+    "chrome_style": true
+  }
 }
