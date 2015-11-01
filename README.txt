@@ -1,5 +1,4 @@
-This is a Chrome extension that allows you to temporarily block certain sites while you're trying
-to work.
+This is a Chrome extension that allows you to temporarily block certain sites while you're trying to work.
 
 To install:
 
