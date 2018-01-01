@@ -2,7 +2,7 @@
   "name": "Site blocker",
   "short_name": "Site blocker",
   "manifest_version": 2,
-  "version": "1.0",
+  "version": "1.1",
   "description": "Blocks distracting sites via a blacklist you define.",
   "icons": {"16":"icon128.png", "48":"icon128.png", "128":"icon128.png"},
   "browser_action": {
@@ -16,9 +16,5 @@
     "matches": ["*://*/*"],
     "js": ["main.js"]
   }],
-  "permissions":  ["tabs", "storage", "http://*/", "https://*/"],
-  "options_ui": {
-    "page": "options.html",
-    "chrome_style": true
-  }
+  "permissions":  ["tabs", "storage", "http://*/", "https://*/"]
 }
