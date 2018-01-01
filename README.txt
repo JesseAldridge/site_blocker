@@ -14,3 +14,6 @@ Use
 Click the extension button to start blocking blacklisted sites.
 After 5 hours the blocking will stop automatically.
 You can manually unblock sites by disabling and enabling the extension.  (Right click the button -> Manage extensions -> click "Enabled" checkbox twice)
+You can also still view blacklisted sites via incognito mode.
+
+The purpose here is not to prevent you from browsing social media, just to prevent you from doing it absentmindedly.
