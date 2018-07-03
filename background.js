@@ -5,7 +5,7 @@ console.log('background.js');
 var blacklist = [
     'reddit', 'news.ycombinator', 'news.google',
     'twitter.com/$', 'facebook', 'youtube', 'twitch', 'tumblr'];
-var whitelist = ['cardbrew'];
+var whitelist = ['cardbrew', 'messages'];
 
 var num_minutes = 300;
 var click_time = null;
